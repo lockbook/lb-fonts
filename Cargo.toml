@@ -2,6 +2,8 @@
 name = "lb-fonts"
 version = "0.1.0"
 edition = "2021"
+description = "fonts for lockbook clients"
+license = "Unlicense"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
