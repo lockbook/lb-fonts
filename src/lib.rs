@@ -1,14 +1,5 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub const PT_SANS_REGULAR: &[u8] = include_bytes!("../fonts/PTSans-Regular.ttf");
+pub const PT_MONO_REGULAR: &[u8] = include_bytes!("../fonts/PTMono-Regular.ttf");
+pub const PT_SANS_BOLD: &[u8] = include_bytes!("../fonts/PTSans-Bold.ttf");
+pub const MATERIAL_ICONS_OUTLINED_REGULAR: &[u8] =
+    include_bytes!("../fonts/material-icons-outlined-regular.otf");
