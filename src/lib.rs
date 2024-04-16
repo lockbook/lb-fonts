@@ -5,3 +5,6 @@ pub const MATERIAL_ICONS_OUTLINED_REGULAR: &[u8] =
     include_bytes!("../fonts/material-icons-outlined-regular.otf");
 pub const MATERIAL_SYMBOLS_OUTLINED: &[u8] =
     include_bytes!("../fonts/material-symbols-outlined-4-0-0.ttf");
+pub const SF_MONO_REGULAR: &[u8] = include_bytes!("../fonts/SF-Mono-Regular.otf");
+pub const SF_PRO_TEXT_REGULAR: &[u8] = include_bytes!("../fonts/SF-Pro.ttf");
+pub const SF_PRO_TEXT_BOLD: &[u8] = include_bytes!("../fonts/SF-Pro-Text-Bold.otf");
