@@ -17,3 +17,5 @@ pub const ROBOTO_MONO_REGULAR: &[u8] = include_bytes!("../fonts/RobotoMono-Regul
 
 pub const TWITTER_COLOR_EMOJI_15_1: &[u8] =
     include_bytes!("../fonts/TwitterColorEmoji-SVGinOT.ttf");
+
+pub const JETBRAINS_MONO: &[u8] = include_bytes!("../fonts/JetBrainsMono-VariableFont_wght.ttf");
