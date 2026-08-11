@@ -81,8 +81,6 @@ pub const SF: [&[u8]; 4] = [
 // symbols
 pub const NERD_FONTS_MONO_SYMBOLS: &[u8] = include_bytes!("../fonts/SymbolsNerdFontMono-Regular.ttf");
 pub const TWEMOJI_MOZILLA: &[u8] = include_bytes!("../fonts/TwemojiMozilla.ttf");
-// Phosphor regular — UI icons for desktop + mobile toolbars / menus
-// (https://phosphoricons.com). Distinct family from Nerd Font "Icons".
 pub const PHOSPHOR: &[u8] = include_bytes!("../fonts/Phosphor.ttf");
 
 pub const SYMBOLS: [&[u8]; 3] = [NERD_FONTS_MONO_SYMBOLS, TWEMOJI_MOZILLA, PHOSPHOR];
