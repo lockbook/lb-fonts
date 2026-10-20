@@ -33,6 +33,11 @@ pub const NOTO_SANS_TAMIL_BOLD: &[u8] = include_bytes!("../fonts/NotoSansTamil-B
 pub const NOTO_SANS_TELUGU_BOLD: &[u8] = include_bytes!("../fonts/NotoSansTelugu-Bold.ttf");
 pub const NOTO_SANS_THAI_BOLD: &[u8] = include_bytes!("../fonts/NotoSansThai-Bold.ttf");
 
+// iOS 26 draws Simplified Chinese with an hvgl-only PingFang that other
+// rasterizers can't read; every other platform ships a usable CJK font.
+#[cfg(target_os = "ios")]
+pub const NOTO_SANS_SC_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansSC-Regular.otf");
+
 pub const NOTO: [&[u8]; 28] = [
     NOTO_SANS_REGULAR,
     NOTO_SANS_BOLD,
