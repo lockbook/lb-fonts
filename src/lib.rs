@@ -10,7 +10,6 @@ mod noto {
     pub const NOTO_SANS_BOLD: &[u8] = include_bytes!("../fonts/NotoSans-Bold.ttf");
     pub const NOTO_SANS_ITALIC: &[u8] = include_bytes!("../fonts/NotoSans-Italic.ttf");
     pub const NOTO_SANS_MONO_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansMono-Regular.ttf");
-    // arrows and math, which Noto Sans lacks
     pub const NOTO_SANS_MATH_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansMath-Regular.ttf");
 
     pub const NOTO_SANS_ARABIC_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansArabic-Regular.ttf");
