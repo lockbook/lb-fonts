@@ -10,6 +10,8 @@ mod noto {
     pub const NOTO_SANS_BOLD: &[u8] = include_bytes!("../fonts/NotoSans-Bold.ttf");
     pub const NOTO_SANS_ITALIC: &[u8] = include_bytes!("../fonts/NotoSans-Italic.ttf");
     pub const NOTO_SANS_MONO_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansMono-Regular.ttf");
+    // arrows and math, which Noto Sans lacks
+    pub const NOTO_SANS_MATH_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansMath-Regular.ttf");
 
     pub const NOTO_SANS_ARABIC_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansArabic-Regular.ttf");
     pub const NOTO_SANS_BENGALI_REGULAR: &[u8] = include_bytes!("../fonts/NotoSansBengali-Regular.ttf");
@@ -37,11 +39,12 @@ mod noto {
     pub const NOTO_SANS_TELUGU_BOLD: &[u8] = include_bytes!("../fonts/NotoSansTelugu-Bold.ttf");
     pub const NOTO_SANS_THAI_BOLD: &[u8] = include_bytes!("../fonts/NotoSansThai-Bold.ttf");
 
-    pub const NOTO: [&[u8]; 28] = [
+    pub const NOTO: [&[u8]; 29] = [
         NOTO_SANS_REGULAR,
         NOTO_SANS_BOLD,
         NOTO_SANS_ITALIC,
         NOTO_SANS_MONO_REGULAR,
+        NOTO_SANS_MATH_REGULAR,
         NOTO_SANS_ARABIC_REGULAR,
         NOTO_SANS_BENGALI_REGULAR,
         NOTO_SANS_DEVANAGARI_REGULAR,
